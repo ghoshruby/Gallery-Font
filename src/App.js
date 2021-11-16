@@ -32,7 +32,7 @@ function App() {
         <Route exact path="/view" component={View_Img} />
         <Route exact path="/logout" component={LogOut} />
 
-       </switch>
+       </Switch>
        
             </BrowserRouter>
   
