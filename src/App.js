@@ -1,8 +1,7 @@
 import './App.css';
 import {BrowserRouter,Switch,Route,Link} from "react-router-dom";
 import Home from './containers/Home.js';
-import SignInOutContainer from './containers/index';
-import Navbars from './components/Navbars';
+
 
 import About from './components/about';
 
