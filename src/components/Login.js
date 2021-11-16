@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Grid, Paper, Avatar, TextField, Button, Typography, Link } from '@material-ui/core';
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 // import history from '../history';
 // import PropTypes from "prop-types";
 import logo from '../images/pin.jpg';
@@ -14,7 +14,7 @@ const Login=({handleChange})=> {
     const avatarStyle = { backgroundColor: '#F01F23' }
     const btnstyle = { margin: '8px 0' }
 
-    let history = useHistory();
+    let Navigate = useNavigate();
 
     const [userid, setUserId] = useState("");
     const [password, setpassword] = useState("");;
@@ -40,7 +40,8 @@ const Login=({handleChange})=> {
 
                 window.alert("Login Sucessfull")
 
-                history.push("/upload")
+                // history.push("/upload")
+                Navigate('/upload')
 
             
 
