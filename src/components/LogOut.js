@@ -1,5 +1,7 @@
 // import { Redirect } from "react-router-dom";
-import { useHistory } from "react-router-dom";
+
+import { useHistory } from "react-router";
+
 
 function LogOut() {
     let history = useHistory();
