@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
       {/* <Navbars/> */}
-           <switch>
+           <Switch>
              
            <Route exact path="/login" component={BackLog} />
            <Route exact path="/about" component={About} />
