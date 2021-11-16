@@ -1,9 +1,9 @@
 
 import '../index.css';
-import { Content, Header } from '../components/Styles';
+import { Content} from '../components/Styles';
 import Slider from '../components/Slider';
 import Navbars from '../components/Navbars';
-import {BrowserRouter,Switch,Route,Link} from "react-router-dom";
+import {BrowserRouter} from "react-router-dom";
 import { Fragment } from 'react'; 
 
 import ScrollTop from '../components/ScrollTop';

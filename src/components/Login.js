@@ -11,8 +11,8 @@ import axios from 'axios';
 
 const Login=({handleChange})=> {
     const paperStyle = { padding: 20, height: '55vh', width: 300, margin: "0 auto" }
-    const avatarStyle = { backgroundColor: '#F01F23' }
-    const btnstyle = { margin: '8px 0' }
+    // const avatarStyle = { backgroundColor: '#F01F23' }
+    // const btnstyle = { margin: '8px 0' }
 
     let history = useHistory();
 

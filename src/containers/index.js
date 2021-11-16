@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import { Grid,Paper, Avatar, TextField, Button, Typography,Link,Tab,Tabs,Box } from '@material-ui/core'
+import { Paper, Typography,Tab,Tabs,Box } from '@material-ui/core'
 import Login from '../components/Login'
 import Signup from '../components/Signup' 
 
-import bg from '../images/bg.png';
-import Image from '../components/Image';
+// import bg from '../images/bg.png';
+// import Image from '../components/Image';
 
 const SignInOutContainer=()=>{
 const [value,setValue]=useState(0)
