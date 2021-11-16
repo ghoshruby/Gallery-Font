@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter,Switch,Route,Link} from "react-router-dom";
+import {BrowserRouter,Route,Routes,Link} from "react-router-dom";
 import Home from './containers/Home.js';
 
 
@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
       {/* <Navbars/> */}
-           <Switch>
+           <Routes>
              
            <Route exact path="/login" component={BackLog} />
            <Route exact path="/about" component={About} />
@@ -32,7 +32,7 @@ function App() {
         <Route exact path="/view" component={View_Img} />
         <Route exact path="/logout" component={LogOut} />
 
-       </Switch>
+       </Routes>
        
             </BrowserRouter>
   
