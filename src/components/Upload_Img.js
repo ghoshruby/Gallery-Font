@@ -1,7 +1,7 @@
 
 
 import React, { useState } from 'react';
-import { Grid, Paper, Avatar, TextField, Button, Typography, Link } from '@material-ui/core';
+import { Grid, Paper, TextField, Button} from '@material-ui/core';
 // import { useHistory } from "react-router-dom";
 import axios from 'axios';
 
@@ -10,8 +10,8 @@ import logo from '../images/pin.jpg';
 
 function Upload_Img() {
     const paperStyle = { padding: 20, height: '50vh', width: 300, margin: "50 auto",marginTop:60,marginLeft:"20%" }
-    const avatarStyle = { backgroundColor: '#F01F23' }
-    const btnstyle = { margin: '8px 0' }
+    // const avatarStyle = { backgroundColor: '#F01F23' }
+    // const btnstyle = { margin: '8px 0' }
 
     let name= sessionStorage.getItem('name')
     let user= sessionStorage.getItem('user')

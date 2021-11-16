@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Grid, Paper, Avatar, Typography, TextField, Button } from '@material-ui/core'
+import { Grid, Paper, Typography, TextField, Button } from '@material-ui/core'
 
 import logo from '../images/pin.jpg';
 import axios from 'axios';
@@ -7,8 +7,8 @@ import axios from 'axios';
 const Signup = () => {
     const paperStyle = { padding: 20, width: 300, margin: "0 auto" }
     const headerStyle = { margin: 15 }
-    const avatarStyle = { backgroundColor: '#F01F23' }
-    const marginTop = { marginTop: 5 }
+    // const avatarStyle = { backgroundColor: '#F01F23' }
+    // const marginTop = { marginTop: 5 }
 
     const [uname, setUserName] = useState("");
     const [uemail, setUserEmail] = useState("");

@@ -1,8 +1,8 @@
 import React from 'react';
-import { Navbar, Nav, Button, Form, FormControl } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../images/pin.jpg';
-import { BrowserRouter as Router, Switch, Route, Link,Redirect } from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 
 function Navbars() {
