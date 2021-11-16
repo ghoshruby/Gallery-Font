@@ -3,7 +3,7 @@ import {BrowserRouter,Switch,Route,Link} from "react-router-dom";
 import Home from './containers/Home.js';
 import SignInOutContainer from './containers/index';
 import Navbars from './components/Navbars';
-import FinalBoard from './components/FinalBoard';
+
 import About from './components/about';
 
 import BackLog from './components/BackLog';
