@@ -24,7 +24,7 @@ function App() {
              
            <Route exact path="/login" component={BackLog} />
            <Route exact path="/about" component={About} />
-           <Route exact path="/business" component={FinalBoard} />
+           {/* <Route exact path="/business" component={FinalBoard} /> */}
            <Route exact path="/buss" component={MainBuss} />
         <Route exact path="/" component={Home} />
         <Route exact path="/gallery" component={All_Show} />
