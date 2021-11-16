@@ -29,8 +29,8 @@ function View_Img() {
         return imglist.map((currentrow, index) => {
             return (
                 <Col key={index} style={{height:"300px",width:"200px",marginBottom:"30px"}}>
-                    <Card style={{height:"300px",width:"200px"}}>
-                        <Card.Img variant="top" src={currentrow.image_path} style={{height:"300px",width:"200px"}}/>
+                    <Card style={{height:"300px",width:"200px", borderRadius:"1rem"}}>
+                        <Card.Img variant="top" src={currentrow.image_path} style={{height:"300px",width:"200px", borderRadius:"1rem"}}/>
                         {/* <Card.Body> */}
                             {/* <Card.Title>Card title</Card.Title> */}
                             {/* <Card.Text>

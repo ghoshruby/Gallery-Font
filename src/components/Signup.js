@@ -60,8 +60,9 @@ const Signup = () => {
 
                         <img src={logo} classname='App-logo' alt="logo"></img>
                         <br/>
-                        <h3 style={{color:"red",msg}}
-                         />
+                        <p style={{color:"brown"}}>
+                            {msg}
+                            </p>
 
                         <br/>
                         <h2 style={headerStyle}>Sign Up</h2>

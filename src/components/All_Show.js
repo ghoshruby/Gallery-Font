@@ -26,8 +26,8 @@ function All_Show() {
         return imglist.map((currentrow, index) => {
             return (
                 <Col key={index} style={{ height: "300px", width: "200px", marginBottom: "30px" }}>
-                    <Card style={{ height: "300px", width: "200px" }}>
-                        <Card.Img variant="top" src={currentrow.image_path} style={{ height: "270px", width: "200px" }} />
+                    <Card style={{ height: "300px", width: "200px", borderRadius:"1rem" }}>
+                        <Card.Img variant="top" src={currentrow.image_path} style={{ height: "270px", width: "200px",borderRadius:"1rem" }} />
                         <Card.ImgOverlay>
                             <Button style={{ marginLeft:"116px",backgroundColor: "#a20b08",color:"whitesmoke",fontSize: "1rem",
         boxShadow: "0 6px 6px rgba(0, 0, 0, 0.6)",borderRadius:"20px", marginTop:"-12%" }} 

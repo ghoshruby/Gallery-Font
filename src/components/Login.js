@@ -70,8 +70,8 @@ const Login=({handleChange})=> {
 
                     <img src={logo} classname='App-logo' alt="logo"></img>
                     <br />
-                    {msg}
-                    <br />
+                   <p style={{color:"brown"}}> {msg}
+                   </p>
                     <h2>Sign In</h2>
                 </Grid>
                 <form onSubmit={handleSubmit}>
