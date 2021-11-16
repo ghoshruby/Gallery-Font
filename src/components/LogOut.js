@@ -1,17 +1,17 @@
 // import { Redirect } from "react-router-dom";
 import React from 'react';
-import {useNavigate} from 'react-router-dom';
+import { useHistory } from "react-router-dom";
 
 
 function LogOut() {
-    let Navigate = useNavigate();
+    let history = useHistory();
 
      sessionStorage.removeItem('user')
      sessionStorage.removeItem('name')
     
      sessionStorage.removeItem('uid')
     
-     Navigate("/")
+     history.push("/")
    
     return (
     <>

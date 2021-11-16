@@ -68,7 +68,8 @@ function Upload_Img() {
            
         }
 console.log(image_path)
-        axios.post('http://localhost:4500/user/image', userinfo)
+        // axios.post('http://localhost:4500/user/image', userinfo)
+        axios.post('https://gallery-back.herokuapp.com/user/image', userinfo)
             .then(res => {
                 // console.log(res.data.message)
                 // setMessage('REGISTRATION SUCCESSFUL')

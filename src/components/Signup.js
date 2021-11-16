@@ -59,6 +59,11 @@ const Signup = () => {
                     <Grid align='center'>
 
                         <img src={logo} classname='App-logo' alt="logo"></img>
+                        <br/>
+                        <h3 style={{color:"red",msg}}
+                         />
+
+                        <br/>
                         <h2 style={headerStyle}>Sign Up</h2>
                         <Typography variant='caption' gutterBottom>Please fill this form to create an account !</Typography>
                     </Grid>
