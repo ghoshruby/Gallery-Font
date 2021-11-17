@@ -30,7 +30,7 @@ function MainBuss() {
                         
     
      <Business/>
-     <Button style={{backgroundColor:"#233478",color:"white",width:"150px",height:"50px",marginLeft:"-62%",fontSize:"120%",marginTop:"-36%",borderRadius:"45%"}} className="font8" href="http://localhost:3000/login"  type="submit"  onClick >
+     <Button style={{backgroundColor:"#233478",color:"white",width:"150px",height:"50px",marginLeft:"-62%",fontSize:"120%",marginTop:"-36%",borderRadius:"45%"}} className="font8" href="https://gallery-main.herokuapp.com/login"  type="submit"  onClick >
             <b>Sign Up </b>
                            
         </Button>
@@ -49,7 +49,7 @@ function MainBuss() {
                         <p>ever.</p></h3></div>
                  
      <Buss1/>
-            <Button style={{backgroundColor:"#233478",color:"white",width:"150px",height:"50px",marginLeft:"-62%",fontSize:"120%",marginTop:"-36%",borderRadius:"45%"}} className="font8" href="http://localhost:3000/login"  type="submit"  onClick >
+            <Button style={{backgroundColor:"#233478",color:"white",width:"150px",height:"50px",marginLeft:"-62%",fontSize:"120%",marginTop:"-36%",borderRadius:"45%"}} className="font8" href="https://gallery-main.herokuapp.com/login"  type="submit"  onClick >
             <b>Sign Up </b>
                            
         </Button>
@@ -68,7 +68,7 @@ function MainBuss() {
                         <p>ever.</p></h3></div>
                 
      <Buss2/>
-             <Button style={{backgroundColor:"#233478",color:"white",width:"150px",height:"50px",marginLeft:"-62%",fontSize:"120%",marginTop:"-36%",borderRadius:"45%"}} className="font8" href="http://localhost:3000/login"  type="submit"  onClick >
+             <Button style={{backgroundColor:"#233478",color:"white",width:"150px",height:"50px",marginLeft:"-62%",fontSize:"120%",marginTop:"-36%",borderRadius:"45%"}} className="font8" href="https://gallery-main.herokuapp.com/login"  type="submit"  onClick >
             <b>Sign Up </b>
                            
         </Button>
